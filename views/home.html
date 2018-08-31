@@ -1,0 +1,23 @@
+<h1>%%TITLE%%</h1>
+<div>%%CONTENT%%</div>
+
+<div class="container">
+    <form action="/page/insertPage" method="post">
+        <div class="field">
+            <label for="">Titre de la page</label>
+            <input type="text" name="sTitle" value="">
+        </div>
+        <div class="field">
+            <label for="">Contenu de la page</label>
+            <textarea name="sContent" id="" cols="100" rows="3"></textarea>
+        </div>
+        <div class="field">
+            <label for="">Masquer la page</label>
+            <input class="checkbox" type="checkbox" name="bHidden" value="">
+        </div>
+        <div class="field">
+            <button type="submit">Enregistrer la page</button>
+        </div>
+    </form>
+</div>
+
